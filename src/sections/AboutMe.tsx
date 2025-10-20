@@ -39,9 +39,14 @@ function AboutMe() {
               <ArrowDownSVG width={14} height={14} strokeWidth={50} />
             </span>
           </a>
-          <button className="border-2 rounded-[5px] w-full sm:w-40 h-11 px-1  hover:bg-blueLocus hover:text-white">
+          <a
+            href="/Ezra%20Alekwe%20CV.pdf"
+            download="Ezra_Alekwe_CV.pdf"
+            className="border-2 rounded-[5px] w-full sm:w-40 h-11 px-1 flex items-center justify-center gap-2 hover:bg-blueLocus hover:text-white transition"
+          >
+            {" "}
             Download Resume
-          </button>
+          </a>
         </div>
       </div>
 

@@ -7,7 +7,7 @@ import ContactMe from '../sections/ContactMe';
 
 function Portfolio() {
   return (
-    <div className="w-full" style={{border:'2px solid #f00'}}>
+    <div className="w-full">
       
       <TopBar />
       <AboutMe/>

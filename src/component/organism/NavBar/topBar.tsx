@@ -39,7 +39,7 @@ function TopBar() {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full bg-gray-900 text-white w-64 p-5 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full bg-white text-black w-64 p-5 transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
