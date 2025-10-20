@@ -12,7 +12,7 @@ function ProjectUI(props: ProjectInfo) {
         {/* Image Section */}
         <div className="w-full aspect-video overflow-hidden">
           <img
-            src={image}
+            src={'https://Ezra-Alekwe.github.io/Portfolio'+image}
             alt={title}
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
