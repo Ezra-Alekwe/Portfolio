@@ -2,7 +2,7 @@ import React from "react";
 import ArrowDownSVG from "../../../assets/svg/ArrowDownSVG";
 import { ProjectInfo } from "../../../interface/interface";
 import NewWindowSVG from "../../../assets/svg/NewWindowSVG";
-import { HOME_URL } from '../../../../environment';
+import { HOME_URL } from '../../../environment';
 
 function ProjectUI(props: ProjectInfo) {
   const { image, title, subtitle, skills, liveUrl, githubUrl } = props;
