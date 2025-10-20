@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Importing Fonts */
+
+/* Work Sans*/
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Work_Sans/static/WorkSans-Regular.ttf') format('truetype'); 
+}
+/* Work Sans-500  */
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/Work_Sans/static/WorkSans-Medium.ttf') format('truetype'); 
+}
+/* Work Sans-600  */
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/Work_Sans/static/WorkSans-SemiBold.ttf') format('truetype'); 
+
+}
+/* Work Sans-700  */
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/Work_Sans/static/WorkSans-Bold.ttf') format('truetype'); 
+
+}
+/* Work Sans-800  */
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./assets/fonts/Work_Sans/static/WorkSans-ExtraBold.ttf') format('truetype'); 
+
+}
+/* Work Sans-900  */
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/Work_Sans/static/WorkSans-Black.ttf') format('truetype'); 
+
+}
+
+/* C:\Users\Ezra\Documents\Ezra Stuff\React\ezra-portfolio\src\assets\fonts\Work_Sans\static\WorkSans-Black.ttf */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root{
+  --blueLocus:oklch(.646 .222 264.376);
+  --workSans: 'Work Sans';
+  --smokingGray:oklch(.556 0 0);
+  --granite:#808080;
+  --cardBg:oklch(.97 0 0);
+  --progrossBar:oklch(.205 0 0);
+}
+
+
+/* Style the whole progress bar */
+progress.progress-bar {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0.5rem; /* rounded corners */
+  overflow: hidden;
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}
+
+/* For Chrome, Safari, Edge */
+progress.progress-bar::-webkit-progress-bar {
+  background-color: #e5e7eb;
+  border-radius: 0.5rem;
+}
+
+progress.progress-bar::-webkit-progress-value {
+  background-color: var(--progrossBar); /* Tailwind blue-500 */
+  border-radius: 0.5rem;
+}
+
+/* For Firefox */
+progress.progress-bar::-moz-progress-bar {
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
