@@ -40,7 +40,8 @@ function AboutMe() {
             </span>
           </a>
           <a
-            href="/Ezra%20Alekwe%20CV.pdf"
+            // href="/Ezra%20Alekwe%20CV.pdf"
+            href={`${process.env.PUBLIC_URL}/Ezra%20Alekwe%20CV.pdf`}
             download="Ezra_Alekwe_CV.pdf"
             className="border-2 rounded-[5px] w-full sm:w-40 h-11 px-1 flex items-center justify-center gap-2 hover:bg-blueLocus hover:text-white transition"
           >
