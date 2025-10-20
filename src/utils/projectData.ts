@@ -1,9 +1,10 @@
+import { IMAGES } from "../constant/images";
 import { ProjectInfo } from "../interface/interface";
 
 export const projects: ProjectInfo[] = [
   {
-    image:
-      "/images/munchy.png",
+    image: IMAGES.munchy,
+
     title: "Food E-Commerce Website",
     subtitle:
       "A collaborative project management tool with real-time updates, team collaboration, and progress tracking.",
@@ -14,7 +15,7 @@ export const projects: ProjectInfo[] = [
 
   {
     image:
-     "/images/reactQuiz.png",
+     IMAGES.reactQuiz,
     title: "React Quiz App",
     subtitle:
       "An analytics platform for social media managers with data visualization and automated reporting.",

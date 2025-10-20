@@ -1,10 +1,11 @@
 import myPic from '../assets/images/myPic.jpg';
-
-interface ImageList{
-    myPic:string;
-}
+import munchy from '../assets/images/munchy.png';
+import reactQuiz from '../assets/images/reactQuiz.png';
 
 
-export const IMAGES:ImageList = {
+
+export const IMAGES = {
     myPic,
-}
+    munchy,
+    reactQuiz,
+} as const
