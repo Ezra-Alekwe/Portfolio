@@ -2,6 +2,7 @@ import React from "react";
 import ArrowDownSVG from "../../../assets/svg/ArrowDownSVG";
 import { ProjectInfo } from "../../../interface/interface";
 import NewWindowSVG from "../../../assets/svg/NewWindowSVG";
+import { HOME_URL } from '../../../environment';
 
 function ProjectUI(props: ProjectInfo) {
   const { image, title, subtitle, skills, liveUrl, githubUrl } = props;
@@ -12,7 +13,7 @@ function ProjectUI(props: ProjectInfo) {
         {/* Image Section */}
         <div className="w-full aspect-video overflow-hidden">
           <img
-            src={'https://Ezra-Alekwe.github.io/Portfolio'+image}
+            src={HOME_URL+image}
             alt={title}
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
