@@ -20,23 +20,35 @@ function ContactMe() {
         <div className="">
           <button className="bg-blueLocus border-1 w-32 h-10 text-white rounded-[5px] px-2 py-2">
             <a
-              href=""
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ezraalekwe@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-around items-center w-full h-full  "
             >
               <span className=" h-full my-1.5">
-                <GMailSVG  strokeColor="#FFF" width={20} height={20}/>
+                <GMailSVG strokeColor="#FFF" width={20} height={20} />
               </span>
               Send Mail
             </a>
           </button>
         </div>
-        <div className="w-12 h-10 border-2 flex items-center justify-center rounded-lg">
-          <GitHubSVG width={20} height={20}/>
+        <div className="w-12 h-10">
+          <a
+            href="https://github.com/Ezra-Alekwe"
+            target="_blank"
+            className="w-12 h-10 border-2 flex items-center justify-center rounded-lg"
+          >
+            <GitHubSVG width={20} height={20} />
+          </a>
         </div>
-        <div className="w-12 h-10 border-2 flex items-center justify-center rounded-lg">
-          <LinkedInSVG width={20} height={20}/>
+        <div className="w-12 h-10 ">
+          <a
+            href="https://github.com/Ezra-Alekwe"
+            target="_blank"
+            className="w-12 h-10 border-2 flex items-center justify-center rounded-lg"
+          >
+            <LinkedInSVG width={20} height={20} />
+          </a>
         </div>
       </div>
     </div>

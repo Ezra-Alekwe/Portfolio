@@ -3,7 +3,7 @@ import ProfilePicture from "../component/atoms/ProfilePicture/ProfilePicture";
 import ArrowDownSVG from "../assets/svg/ArrowDownSVG";
 import GitHubSVG from "../assets/svg/GitHubSVG";
 import LinkedInSVG from "../assets/svg/LinkedInSVG";
-import GMailSVG from '../assets/svg/GMailSVG';
+import GMailSVG from "../assets/svg/GMailSVG";
 
 function AboutMe() {
   return (
@@ -30,7 +30,10 @@ function AboutMe() {
       </div>
       <div className="w-full mt-9">
         <div className="sm:flex justify-center space-y-3 sm:space-y-0">
-          <a href="#projects" className="bg-blueLocus border-1 mr-5 w-full  sm:w-40 h-11  flex justify-center text-white rounded-[5px] px-2 py-2">
+          <a
+            href="#projects"
+            className="bg-blueLocus border-1 mr-5 w-full  sm:w-40 h-11  flex justify-center text-white rounded-[5px] px-2 py-2"
+          >
             View My Work
             <span className="ml-2 h-full my-1.5">
               <ArrowDownSVG width={14} height={14} strokeWidth={50} />
@@ -43,14 +46,22 @@ function AboutMe() {
       </div>
 
       <div className="w-full mt-9 flex justify-center space-x-6">
-        <a  href="#" className="">
+        <a href="https://github.com/Ezra-Alekwe" target="_blank" className="">
           <GitHubSVG width={24} height={24} />
         </a>
-        <a  href="#" className="">
+        <a
+          href="https://www.linkedin.com/in/ezra-alekwe-b1a632232/"
+          target="_blank"
+          className=""
+        >
           <LinkedInSVG width={24} height={24} />
         </a>
 
-        <a href="#" className="">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=ezraalekwe@gmail.com"
+          target="_blank"
+          className=""
+        >
           <GMailSVG width={24} height={24} />
         </a>
       </div>
