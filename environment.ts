@@ -1,0 +1,1 @@
+export const HOME_URL = 'https://Ezra-Alekwe.github.io/Portfolio'
