@@ -8,7 +8,7 @@ export const projects: ProjectInfo[] = [
     title: "Food E-Commerce Website",
     subtitle:
      "An online food ordering platform that allows users to browse, select, and purchase meals with a clean and responsive design.",
-    skills: [  "HTML", "CSS","Javascript",'Visual Studio Code'],
+    skills: [  "HTML", "CSS","Javascript","Visual Studio Code"],
     liveUrl: "https://ezra-alekwe.github.io/Food-Ecommerce/",
     githubUrl: "https://github.com/Ezra-Alekwe/Food-Ecommerce",
   },
@@ -19,7 +19,7 @@ export const projects: ProjectInfo[] = [
     title: "React Quiz App",
     subtitle:
       "An interactive quiz application built with React that tests users’ knowledge and provides instant feedback on their scores.",
-       skills: [  "HTML", "CSS","Typescript", 'TailwindCss','Visual Studio Code'],
+       skills: [  "HTML", "CSS","Typescript", "TailwindCss","Visual Studio Code"],
     liveUrl: "https://ezra-alekwe.github.io/React_Quiz/",
     githubUrl: "https://github.com/Ezra-Alekwe/React_Quiz",
   },
