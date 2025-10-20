@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3c5317e5.css",
-    "main.js": "/Portfolio/static/js/main.d196efc3.js",
+    "main.js": "/Portfolio/static/js/main.00952a66.js",
+    "static/media/munchy.png": "/Portfolio/static/media/munchy.bc541074040d85cf5923.png",
     "static/media/WorkSans-ExtraBold.ttf": "/Portfolio/static/media/WorkSans-ExtraBold.756a617ba290c2e9a182.ttf",
     "static/media/WorkSans-Black.ttf": "/Portfolio/static/media/WorkSans-Black.15f077de5da67635c9e7.ttf",
     "static/media/WorkSans-Bold.ttf": "/Portfolio/static/media/WorkSans-Bold.f333623c5f2b3092075b.ttf",
     "static/media/WorkSans-SemiBold.ttf": "/Portfolio/static/media/WorkSans-SemiBold.b6f286e6c43d6f11abd8.ttf",
     "static/media/WorkSans-Medium.ttf": "/Portfolio/static/media/WorkSans-Medium.1a362f7763b9de12938a.ttf",
     "static/media/WorkSans-Regular.ttf": "/Portfolio/static/media/WorkSans-Regular.e1ad761625902aa8aada.ttf",
+    "static/media/reactQuiz.png": "/Portfolio/static/media/reactQuiz.91fda929073995cd5d70.png",
     "static/media/myPic.jpg": "/Portfolio/static/media/myPic.ba227d6f35efc0b94e33.jpg",
     "index.html": "/Portfolio/index.html",
     "main.3c5317e5.css.map": "/Portfolio/static/css/main.3c5317e5.css.map",
-    "main.d196efc3.js.map": "/Portfolio/static/js/main.d196efc3.js.map"
+    "main.00952a66.js.map": "/Portfolio/static/js/main.00952a66.js.map"
   },
   "entrypoints": [
     "static/css/main.3c5317e5.css",
-    "static/js/main.d196efc3.js"
+    "static/js/main.00952a66.js"
   ]
 }
