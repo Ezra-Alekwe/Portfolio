@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3c5317e5.css",
-    "main.js": "/Portfolio/static/js/main.00952a66.js",
+    "main.js": "/Portfolio/static/js/main.629acdf4.js",
     "static/media/munchy.png": "/Portfolio/static/media/munchy.bc541074040d85cf5923.png",
     "static/media/WorkSans-ExtraBold.ttf": "/Portfolio/static/media/WorkSans-ExtraBold.756a617ba290c2e9a182.ttf",
     "static/media/WorkSans-Black.ttf": "/Portfolio/static/media/WorkSans-Black.15f077de5da67635c9e7.ttf",
@@ -13,10 +13,10 @@
     "static/media/myPic.jpg": "/Portfolio/static/media/myPic.ba227d6f35efc0b94e33.jpg",
     "index.html": "/Portfolio/index.html",
     "main.3c5317e5.css.map": "/Portfolio/static/css/main.3c5317e5.css.map",
-    "main.00952a66.js.map": "/Portfolio/static/js/main.00952a66.js.map"
+    "main.629acdf4.js.map": "/Portfolio/static/js/main.629acdf4.js.map"
   },
   "entrypoints": [
     "static/css/main.3c5317e5.css",
-    "static/js/main.00952a66.js"
+    "static/js/main.629acdf4.js"
   ]
 }
